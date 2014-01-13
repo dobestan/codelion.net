@@ -11,17 +11,8 @@ Codelion.net > Codetiger Study
   - git initialize
     - sync with local(macbook) and amazon web server(EC2; Ubuntu 13.10; 54.200.130.229)
     
-  - write on facebook
-    - codelion.net에 글쓰기
-
   - study Ruby
     - codecademy.com : finish (4H)
-    - 오라일리 동물책 구입하기(Ruby)
-
-  - finish homework
-    - hw > part1
-    - hw > part2
-    - hw > part3
 
 
 - Study Diary
