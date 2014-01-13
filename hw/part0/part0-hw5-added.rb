@@ -86,3 +86,6 @@ man.each_with_index do |x, i|
  BMI_checker(x[:height], x[:weight])  
  puts ""
 end 
+
+#이 코드는 나쁜 코드이다.
+#get_standard_weight / get_obesity_rate 가 현재 2번씩 수행되고 똑같은 결과값을 반환한다.
