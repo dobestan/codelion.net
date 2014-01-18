@@ -62,6 +62,8 @@ def get_state(obesity_rate)
   return state
 end
 
-height = get_height()
-weight = get_weight()
-BMI_checker(height, weight)
+#height = get_height()
+#weight = get_weight()
+#BMI_checker(height, weight)
+
+puts get_state(gets.chomp.to_i)
