@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-ProfileGenerator::Application.config.secret_key_base = '2c9477edf878248c59dd3dc9a880347f2fb78aafa92e1b77b16cf03becf196eae11dec79a5ae24d5aa4c4f82218a4f74e737450aaaf597c78aa0e38c880dcbc6'
+RailsProject::Application.config.secret_key_base = '0a62115e4682653309b561b5463f7d040f48472fa36a068c36d7d1c08f85165cf57cd5a920b26335d3ae675d6d9ba5d9736f2d4591ac64d32d8175b5f32f8f8b'

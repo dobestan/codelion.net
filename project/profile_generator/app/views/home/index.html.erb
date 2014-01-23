@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Profile Generator</title>
+
+    <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="http://getbootstrap.com/examples/signin/signin.css" />
+
+    <style type="text/css">
+    html {
+        background: url("http://www.hdwallpaperswing.com/wp-content/uploads/2013/11/04/Animal-3D-Wallpapers-HD.jpg") no-repeat center center fixed !important;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
+        background-size: cover !important;
+    }
+
+    body {
+        background-color : transparent !important;
+    } 
+
+    h2 {
+        color : white
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="/home/result" method="get" class="form-signin" role="form">
+          <h2 class="form-signin-heading">CodeTiger ::<br>Profile Generator</h2>
+        <input type="text" name="name" class="form-control" placeholder="Name" required autofocus>
+        <input type="text" name="email" class="form-control" placeholder="Email address" required>
+        <input type="text" name="phone" class="form-control" placeholder="Phone Number" required>
+        <input type="text" name="birthday" class="form-control" placeholder="birthday" required>
+        <input type="text" name="address" class="form-control" placeholder="address" required>
+        <input type="text" name="job" class="form-control" placeholder="JOB" required>
+        <input type="text" name="image_url" class="form-control" placeholder="Image Url" required>
+        <input type="text" name="profile" class="form-control" placeholder="Profile Message" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Generate!</button>
+     </form>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+</body>
+</html>
