@@ -2,7 +2,7 @@ require 'open-uri'
 require 'nokogiri'
 require 'iconv'
 
-url = "http://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu&page=2&divpage=33"
+url = "http://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu4&page=1&divpage=7"
 page = Nokogiri::HTML(open(url))
 conv = Iconv.new('UTF-8', 'EUC-KR')
 
