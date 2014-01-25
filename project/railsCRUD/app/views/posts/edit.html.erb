@@ -1,0 +1,15 @@
+<h1>Edit Post</h1>
+
+<form action="/posts/update/<%= @post.id %>" method="get" accept-charset="utf-8">
+    <div>
+        title<br>
+        <input type="text" name="title" value="<%= @post.title %>"/>
+    </div>
+
+    <div>
+        body<br>
+        <textarea type="text" name="body" rows="8" cols="20" /><%= @post.body %></textarea>
+    </div>
+
+    <input type="submit" />
+</form>
